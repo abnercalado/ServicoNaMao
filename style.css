@@ -338,6 +338,6 @@ footer{
         flex-direction: column;
         padding: 0px;
         font-size: 100%;
-        width: 400px; /* TAMANHO NO CELULAR*/
+        width: 390px; /* TAMANHO NO CELULAR*/
     }
 }}
