@@ -334,10 +334,10 @@ footer{
 }
 
 @media screen and (max-width: 1200px) {
-    header, .divgeral {
+    header, .divgeral, body {
         flex-direction: column;
         padding: 0px;
         font-size: 100%;
-        width: 380px; /* TAMANHO NO CELULAR*/
+        width: 400px; /* TAMANHO NO CELULAR*/
     }
 }}
