@@ -1,0 +1,343 @@
+@charset "UTF-8";
+
+body{
+    min-width: 148px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: #95b46abc;
+}
+
+header{
+    max-width: 100%;
+    min-width: 150px;
+    background-color: #95B46A;
+    display: flex;
+    border-radius: 10px;
+    border: 5px solid rgba(255, 255, 255, 0.426);
+}
+
+.divgeral {
+    width: 800px;
+    height: 350px;
+}
+
+#SNM {
+    color: white;
+    position: relative;
+    left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#lupin {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    left: 35px;
+}
+
+#inicio {
+    color: #ffffff;
+    position: relative;
+    left: 40px;
+    padding: 0px;
+    font-size: 20px;
+    text-decoration: none;
+    margin: auto;
+    transition: 0.5s;
+    padding: 20px;
+}
+
+#como-usar{
+    color: #ffffff;
+    position: relative;
+    left: 42px;
+    padding: 0px;
+    font-size: 20px;
+    padding: 0px;
+    font-size: 20px;
+    text-decoration: none;
+    margin: auto;
+    transition: 0.5s;
+    padding: 20px;
+}
+
+#quem-somos {
+    color: #ffffff;
+    position: relative;
+    left: 44px;
+    padding: 0px;
+    font-size: 20px;
+    padding: 0px;
+    font-size: 20px;
+    text-decoration: none;
+    margin: auto;
+    transition: 0.5s;
+    padding: 20px;
+}
+
+#inicio:hover, #como-usar:hover , #quem-somos:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.199);
+    background-color: #576d37a6;
+}
+
+a{text-decoration: none;}
+
+#logo{
+    width: 240px;
+    height: 163px;
+}
+
+#divulgue{
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    margin-left: 20px;
+    transition: 0.5s;
+    padding: 20px;
+    position: relative;
+    left: 365px;
+}
+
+    #divulgue:hover{
+      background-color: #95B46A
+      padding: 20px;
+      border-radius: 0px 20px 0px 20px;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.199);
+    }
+
+#buscar{
+    margin: auto;
+    margin-left: 360px; /* AQUI */
+    padding: 5px;
+    transition: 0.5s;
+    border: none;
+    width: 150px;
+}
+
+    #buscar:hover{
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.199);
+    }
+
+#buscarb{
+    margin: auto;
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    transition: 0.5s;
+    position: relative;
+    right: 20px;
+}
+
+    #buscarb:hover{
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.199);
+    }
+
+    #nails {
+        width: 120px;
+        height: 120px;
+        border-radius: 10px;
+    }
+
+    #americo {
+        width: 300px;
+        height: 120px;
+        border-radius: 10px;
+    }
+
+    #melbiaa{
+        width: 150px;
+        height: 120px;
+        border-radius: 10px;
+    }
+
+    #soberanoooo {
+        width: 150px;
+        height: 120px;
+        border-radius: 10px;
+    }
+
+    #clique {
+        font-size: 20px;
+    }
+div{
+    background-color: #95B46A;
+    padding: 20px;
+    max-width: 1600px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    color: white;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.426);
+    border-radius: 0px 20px 0px 20px;
+}
+
+    div:hover{
+        
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+    }
+
+#div_dentro{
+    background-color: #95B46A;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.199);
+    cursor: pointer;
+}
+
+    #div_dentro:hover{
+        border-radius: 0px 20px 0px 20px;
+    }
+
+#cadastro{
+    background-color: #95B46A;
+}
+
+    #nome_empresa{
+        margin-bottom:5px ;
+    }
+
+    #link_redesocial{
+        margin-bottom:5px ;
+    }
+
+    #email_cadastro{
+        margin-bottom:5px ;
+    }
+
+    #numero_cadastro{
+        margin-bottom:5px ;
+    }
+
+    #descrição{
+        margin-bottom:5px ;
+    }
+    
+    #imagem_cadastro{
+        margin-bottom:5px ;
+    }
+
+#enviar_cadastro{
+    transition: 0.5s;
+    height: 23px; 
+    width: 75px;
+    cursor: pointer;
+}
+        #enviar_cadastro:hover{
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.274);
+            width: 80px;
+            height: 30px;
+            background-color: rgb(37, 121, 37);
+            color: white;
+        }
+
+#limpar_cadastro{
+    margin-top: 5px;
+    transition: 0.5s;
+    height: 23px; 
+    width: 75px;
+    cursor: pointer;
+}
+        #limpar_cadastro:hover{
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.274);
+            width: 80px;
+            height: 30px;
+            background-color: rgb(250, 47, 47);
+            color: white;
+        }
+
+footer{
+    background-color: #95B46A;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: -10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.426);
+}
+
+@media screen and (max-width: 640px) {
+
+body{
+    font-size: 15pt;
+}
+
+#divulgue{
+    display: none;
+}
+
+#buscar, #buscarb{
+    margin: auto;
+    padding: 10px;
+}
+
+#buscar:hover{
+    box-shadow: none;
+}
+
+#buscarb:hover{
+    box-shadow: none;
+}
+
+div{
+    background-color: 95B46A;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+    div:hover{
+        box-shadow: none;
+        border-radius: 0px;
+    }
+
+
+#div_dentro{
+    background-color: #95B46A;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.199);
+    cursor: pointer;
+}
+
+    #div_dentro:hover{
+        border-radius:0px ;
+    }
+
+#cadastro{
+    margin-top: 20px;
+}
+
+#enviar_cadastro{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #enviar_cadastro:hover{
+        background-color: rgb(228, 228, 228);
+        color:black;
+        height: 23px; 
+        width: 75px;
+        box-shadow: none;
+    }
+
+    #limpar_cadastro:hover{
+        background-color: rgb(228, 228, 228);
+        color:black;
+        height: 23px; 
+        width: 75px;
+        box-shadow: none;
+    }
+
+footer{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    header, .divgeral, body {
+        flex-direction: column;
+        padding: 0px;
+        font-size: 100%;
+        width: 330px; /* TAMANHO NO CELULAR*/
+    }
+}}

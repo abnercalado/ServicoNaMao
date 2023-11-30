@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServiçoNaMão</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="FOTOS/3d-lupa_png_215354-69_jpg.png"image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="SNM">SERVIÇO NA MÃO</h1>
+        <img src="FOTOS/3d-lupa_png_215354-69_jpg.png" alt="luparcio" id="lupin">
+        <a href="#"><b><ul id="inicio">INÍCIO</ul></b></a> 
+        <a href="#"><b><ul id="como-usar">COMO USAR</ul></b></a>
+        <a href="#"><b><ul id="quem-somos">QUEM SOMOS</ul></b></a>
+
+        <a href="#cadastro" id="divulgue">DIVULGUE SEU TRABALHO</a> 
+        <select name="buscar" id="buscar" required>
+            <option value=""></option>
+            <option value="00">Programador</option>
+        </select>
+        <input type="button" value="Buscar" id="buscarb" onclick="buscar()">
+    </header>
+    
+    <div class="divgeral">
+
+        <a href="index2.html">
+            <div id="div_dentro">
+                <img src="FOTOS/nails.png" alt="unhaw" id="nails">
+                <h3>PRISCILA NAILS</h3>
+                <p>
+                    Manicure apaixonada por transformar unhas em obras de arte. Com anos de experiência, ela cria não só belos designs, mas também um ambiente acolhedor onde a confiança e a amizade se misturam com cada pincelada.
+                </p>
+                <h4 id="clique">CLIQUE PARA SABER MAIS </h4>
+            </div>
+        </a>
+
+    </div>
+
+    <div class="divgeral">
+
+        <a href="index3.html">
+            <div id="div_dentro">
+                <img src="FOTOS/LOGO_page-0001-removebg-preview.png" alt="capitãoamerico" id="americo">
+                <h3>ESTOFADOS AMÉRIO</h3>
+                <p>
+                    Somos uma loja especializada em móveis e estofados, unindo conforto e estilo. Além de oferecer uma variedade de peças encantadoras, também somos especialistas em reformar e renovar móveis, trazendo vida nova para seus itens favoritos.
+                </p>
+                <h4 id="clique">CLIQUE PARA SABER MAIS </h4>
+            </div>
+        </a>
+
+    </div>
+
+    <div class="divgeral">
+
+        <a href="index4.html"> 
+            <div id="div_dentro">
+                <img src="FOTOS/melbia.png" alt="melbiaa" id="melbiaa">
+            <h3>MELBIA FOR MEN</h3>
+            <p>
+                "Estilo masculino refinado em cada detalhe. Ternos impecáveis, looks casuais e qualidade excepcional - sua expressão de elegância."
+            </p>
+            <h4 id="clique">CLIQUE PARA SABER MAIS </h4>
+            </div>
+        </a>
+
+    </div>
+
+    <div class="divgeral">
+
+        <a href="index5.html" id="linkStorage">
+            <div id="div_dentro" id="storageDiv2">
+                <img src="FOTOS/soberano.png" alt="soberano" id="soberanoooo">
+            <h3 id="nomeStorage">SOBERANO LATICINIOS</h3>
+            <p id="descriçãoStorage">
+                "Explorando sabores lácteos em Igarassu, Pernambuco! 🐄🥛
+            </p>
+            <h4 id="clique">CLIQUE PARA SABER MAIS </h4>
+            </div>
+        </a>
+
+    </div>
+
+    <div id="cadastro">
+        <form action="cadastro">
+            <h3>CADASTRE-SE E DIVULGUE SEUS SERVIÇOS</h3>
+            <br>
+            <label for="nome_empresa">Coloque seu nome ou o nome da sua empresa: </label>
+            <input type="text" name="nomeEmpresa" id="nome_empresa" required>
+            <br>
+            <label for="email_cadastro">Coloque um email para contato: </label>
+            <input type="text" name="emailCadastro" id="email_cadastro" required>
+            <br>
+            <label for="numero_cadastro">Coloque seu número de contato: </label>
+            <input type="text" name="n_cadastro" id="numero_cadastro" required>
+            <br>
+            <label for="descrição">Faça uma breve descrição do seu serviço: </label>
+            <input type="text" name="descricao" id="descrição" required>
+            <br>
+            <label for="tipo_de_serviço">Selecione qual tipo de serviço você presta: </label>
+            <select name="tipo_serviço" id="tipo_de_serviço" required>
+                <option value=""></option>
+                <option value="Programador">Programador</option>
+            </select>
+            <br>
+            <input type="submit" value="Cadastrar" id="enviar_cadastro" onclick="Enviar_dados()">
+            <br>
+            <input type="button" value="Limpar" id="limpar_cadastro" onclick="Limpar_dados()">
+
+        </form>
+    </div>
+
+    <footer>
+        <p>Caso tenha algum problema de cadastro entre em contato: (81)99999-9999</p>
+    </footer>
+</body>
+</html>

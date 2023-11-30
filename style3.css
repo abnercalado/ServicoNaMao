@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+body{
+    min-width: 148px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: #95b46abc;
+}
+
+main{
+        background-color:#95B46A;
+        padding: 20px;
+        max-width: 700px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: white;
+        text-align: center;
+        border-radius: 0px 20px 0px 20px;
+        transition: 0.5s;
+}
+    main:hover{
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+    }
+
+#foto_perfil2{
+    background-image: linear-gradient( to top, #95b46abc, #95b46a55 );
+    margin: auto;
+    text-align: center;
+    width: 350px;
+    height: 250px;
+    transition: 0.5s;
+}
+    #foto_perfil2:hover{
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.199);
+    }
+
+#foto_perfil{
+    margin: auto;
+    margin-top: 22px;
+    width: 350px;
+    height: 200px;
+    transition: 0.5s;
+    }
+
+    #foto_perfil:hover{
+        margin-top: 0px;
+        width: 250px;
+        height: 250px;
+    }
+
+#nome_perfil{
+    text-align: center;
+    font-size: 30px;
+}
+
+#descrição_perfil{
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav#desc {
+    text-decoration: none;
+    list-style: none;
+}
+
+#contatos_perfil{
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+    a{
+    color: white;
+    padding: 5px;
+    transition: 0.5s;}
+
+    a:hover{
+        text-decoration: none;
+        padding: 10px;
+        background-color: aliceblue;
+        color: #0C9EE8;
+        border-radius: 0px 20px 0px 20px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.199);
+    }
+
+@media screen and (max-width: 640px){
+
+    main:hover{
+        border-radius: 0px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+    }    
+    
+    a:hover{
+        text-decoration:underline;
+        padding: 5px;
+        background-color: #0066ff;
+        color: white;
+        border-radius: 0px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0);
+    }
+}
