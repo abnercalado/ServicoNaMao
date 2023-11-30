@@ -334,7 +334,7 @@ footer{
 }
 
 @media screen and (max-width: 1200px) {
-    header, .divgeral, body {
+    header, .divgeral {
         flex-direction: column;
         padding: 0px;
         font-size: 100%;
